@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla';
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+/* CSS for whole page */
+.page{
+    display: flex;
+    padding: 163px 402px 162px 403px;
+    justify-content: center;
+    align-items: center;
+    background: #E6EFF5;
+}
+
+/* CSS for container which cover 3 box on desktop */
+div.container{
+    width: 635px;
+    height: 475px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+}
+ 
+/* CSS for top part is start from here */
+div .top{
+    padding: 40px;
+    height: 216px;
+}
+div .top-first{
+    color: #2AB3B1;
+    font-family: 'Karla';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    margin-bottom: 24px;
+}
+div .top-second{
+    color: #C0DF33;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.225px;
+}
+div .top-third{
+    color: #9AA7BE;
+    margin-top: 5px;
+    width: 555px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    letter-spacing: -0.2px;
+}
+
+/* CSS for bottom part is start from here */
+div .bottom{
+    display: flex;
+    width: 635px;
+    height: 259px;
+}
+
+/* CSS for left box in the bottom part */
+div .bottom-left{
+    background: #2AB3B1;
+    padding: 40px;
+}
+.left-first{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.225px;
+}
+.left-second{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    margin-top: 18px;
+    margin-bottom: 4px;
+    align-items: center;
+}
+div span{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    opacity: 0.5;
+    margin-top: 24px;
+    margin-bottom: 9px;
+    margin-left: 11px;
+}
+div .left-third{
+    width: 238px;
+    margin-bottom: 26px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    letter-spacing: -0.2px;
+}
+button{
+    width: 237px;
+    height: 48px;
+    border-radius: 5px;
+    background: #C0DF33;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.10);
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    transition: all .3s ease;
+    cursor:pointer;
+}
+
+/* CSS for right box in the bottom part */
+div .bottom-right{
+    padding: 40px;
+    width: 318px;
+    height: 259px;
+    background: #4ABFBC;
+}
+div .right-first{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.225px;
+    margin-bottom: 18px;
+}
+div .right-second{
+    opacity: 0.75;
+    width: 238px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 20px; 
+    letter-spacing: -0.2px;
+}
+
